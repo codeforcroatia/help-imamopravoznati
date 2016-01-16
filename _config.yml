@@ -20,6 +20,7 @@ owner:
   
 project:
   name: Imamo pravo znati
+  githubslug: help-imamopravoznati
   website: http://imamopravoznati.org
 
 license:
