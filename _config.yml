@@ -5,6 +5,7 @@ source: .
 permalink: /:title/
 baseurl: "/"
 url: http://help.imamopravoznati.org
+name: Pomoć za pristup informacijama
 exclude:
 - ".*"
 - "*.md"
