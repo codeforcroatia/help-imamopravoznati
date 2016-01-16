@@ -4,7 +4,7 @@ pygments: true
 source: .
 permalink: /:title/
 baseurl: "/"
-url: http://legal.imamopravoznati.org
+url: http://help.imamopravoznati.org
 exclude:
 - ".*"
 - "*.md"
@@ -29,4 +29,4 @@ license:
 analytics:
   provider: google
   google:
-    id: UA-46708458-8
+    id: UA-46708458-9
