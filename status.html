@@ -1,14 +1,15 @@
 ---
-layout: default
-background: ""
-identifier: status
-lang: hr
+layout: menu
+title: Status page
 ---
-
-<h1>Site configuration</h1><br />
-<br />
-Print out from _config_yml:<br />
-<br />
+<section id="list">
+  <article>
+    <header>
+      <h1>Site configuration</h1>
+    </header>
+<p>Print out from _config_yml:</p>
+<hr />
+    <ol>
 safe: {{ site.safe }}<br />
 lsi: {{ site.lsi }}<br />
 pygments: {{ site.pygments }}<br />
@@ -38,5 +39,5 @@ analytics:<br />
   provider: {{ site.analytics.provider }}<br />
   google:<br />
     id: {{ site.analytics.google.id }}<br />
-<br />
-Za potrebe debugiranja, ova stranica je izrađena u {{ site.time | date: '%s' }} po UNIX vremenu.<br />
+</ol>
+Za potrebe debugiranja, ova stranica je izrađena u {{ site.time | date: '%s' }} po UNIX vremenu.
