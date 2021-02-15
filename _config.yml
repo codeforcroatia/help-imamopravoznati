@@ -3,7 +3,7 @@ lsi: false
 pygments: false
 source: .
 permalink: /:title/
-baseurl: "/"
+baseurl: 
 url: https://help.imamopravoznati.org
 name: Pomoć za pristup informacijama
 exclude:
@@ -14,15 +14,15 @@ exclude:
 
 owner:
   name: Code for Croatia
-  contact: "&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#105;&#064;&#099;&#111;&#100;&#101;&#102;&#111;&#114;&#099;&#114;&#111;&#097;&#116;&#105;&#097;&#046;&#111;&#114;&#103;"
-  website: http://codeforcroatia.org
+  contact: https://mailhide.io/e/gJXmq9Xl
+  website: https://codeforcroatia.org
   github: https://github.com/codeforcroatia
   facebook: https://www.facebook.com/kodirajzahrvatsku
   
 project:
   name: Imamo pravo znati
   githubslug: help-imamopravoznati
-  website: http://imamopravoznati.org
+  website: https://imamopravoznati.org
 
 license:
   name: CC0
