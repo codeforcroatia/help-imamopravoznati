@@ -1,0 +1,42 @@
+<html>
+<head>
+</head>
+<body>
+
+<h1>Site configuration</h1><br />
+<br />
+Print out from _config_yml:<br />
+<br />
+safe: {{ site.safe }}<br />
+lsi: {{ site.lsi }}<br />
+pygments: {{ site.pygments }}<br />
+source: {{ site.source }}<br />
+permalink: {{ site.permalink }}<br />
+baseurl: {{ site.baseurl }}<br />
+url: {{ site.url }}<br />
+name: {{ site.name }}<br />
+<br />
+owner:<br />
+  name: {{ site.owner.name }}<br />
+  contact: {{ site.owner.contact }}<br />
+  website: {{ site.owner.website }}<br />
+  github: {{ site.owner.github }}<br />
+  facebook: {{ site.owner.facebook }}<br />
+<br />
+project:<br />
+  name: {{ site.project.name }}<br />
+  githubslug: {{ site.project.githubslug }}<br />
+  website: {{ site.project.website }}<br />
+<br />
+license:<br />
+  name: {{ site.license.name }}<br />
+  url: {{ site.license.url }}<br />
+<br />
+analytics:<br />
+  provider: {{ site.analytics.provider }}<br />
+  google:<br />
+    id: {{ site.analytics.google.id }}<br />
+<br />
+Za potrebe debugiranja, ova stranica je izrađena u {{ site.time | date: '%s' }} po UNIX vremenu.<br />
+
+</body>
